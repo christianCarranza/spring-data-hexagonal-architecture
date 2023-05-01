@@ -1,0 +1,21 @@
+= Ejemplo de aquitectura Hexagonal con Spring Data=
+
+Esto es un ejemplo  de una aplicacion con arquitectura Hexagonal, con base de datos en Memoria (H2).
+
+== Pasos para ejecutar
+
+```
+mvn spring-boot:run
+
+```
+
+
+== Para probar los endpoints
+
+La aplicacion tiene las siguientes endpoints:
+
+Get - http://localhost:8080/users/user/{userId}
+
+Post - http://localhost:8080/users
+
+
